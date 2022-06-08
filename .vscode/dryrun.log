@@ -1,0 +1,6 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/luan/Documents/Masters/T1/T1.3/Priority queue'
+gcc -c fila_prioridade_heap.c -o fila_prioridade_heap.o
+gcc main_heap.c fila_prioridade_heap.o -o main_heap
+make: Leaving directory '/home/luan/Documents/Masters/T1/T1.3/Priority queue'
+ 

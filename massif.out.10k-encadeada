@@ -1,0 +1,509 @@
+desc: --time-unit=ms
+cmd: ./main_encadeada
+time_unit: ms
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=339
+mem_heap_B=24
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=340
+mem_heap_B=66664
+mem_heap_extra_B=1976
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=341
+mem_heap_B=226872
+mem_heap_extra_B=6688
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=342
+mem_heap_B=372392
+mem_heap_extra_B=10968
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=343
+mem_heap_B=508392
+mem_heap_extra_B=14968
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=344
+mem_heap_B=650104
+mem_heap_extra_B=19136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=345
+mem_heap_B=801336
+mem_heap_extra_B=23584
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=346
+mem_heap_B=943320
+mem_heap_extra_B=27760
+mem_stacks_B=0
+heap_tree=detailed
+n2: 943320 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 943296 0x1094CF: novoNo (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+  n1: 943296 0x10968F: filaP_inserir_encadeada (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+   n1: 943296 0x1092BD: teste_encadeada_10k (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+    n0: 943296 0x10949C: main (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=9
+#-----------
+time=347
+mem_heap_B=1105704
+mem_heap_extra_B=32536
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=348
+mem_heap_B=1225928
+mem_heap_extra_B=36072
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=349
+mem_heap_B=1360024
+mem_heap_extra_B=40016
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=350
+mem_heap_B=1509080
+mem_heap_extra_B=44400
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1509080 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1509056 0x1094CF: novoNo (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+  n1: 1509056 0x10968F: filaP_inserir_encadeada (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+   n1: 1509056 0x1092BD: teste_encadeada_10k (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+    n0: 1509056 0x10949C: main (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=13
+#-----------
+time=351
+mem_heap_B=1658680
+mem_heap_extra_B=48800
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1658680 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1658656 0x1094CF: novoNo (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+  n1: 1658656 0x10968F: filaP_inserir_encadeada (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+   n1: 1658656 0x1092BD: teste_encadeada_10k (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+    n0: 1658656 0x10949C: main (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=14
+#-----------
+time=352
+mem_heap_B=1794680
+mem_heap_extra_B=52800
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1794680 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1794656 0x1094CF: novoNo (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+  n1: 1794656 0x10968F: filaP_inserir_encadeada (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+   n1: 1794656 0x1092BD: teste_encadeada_10k (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+    n0: 1794656 0x10949C: main (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=15
+#-----------
+time=353
+mem_heap_B=1956248
+mem_heap_extra_B=57552
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=354
+mem_heap_B=2110200
+mem_heap_extra_B=62080
+mem_stacks_B=0
+heap_tree=detailed
+n2: 2110200 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2110176 0x1094CF: novoNo (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+  n1: 2110176 0x10968F: filaP_inserir_encadeada (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+   n1: 2110176 0x1092BD: teste_encadeada_10k (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+    n0: 2110176 0x10949C: main (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=17
+#-----------
+time=355
+mem_heap_B=2270680
+mem_heap_extra_B=66800
+mem_stacks_B=0
+heap_tree=detailed
+n2: 2270680 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2270656 0x1094CF: novoNo (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+  n1: 2270656 0x10968F: filaP_inserir_encadeada (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+   n1: 2270656 0x1092BD: teste_encadeada_10k (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+    n0: 2270656 0x10949C: main (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=18
+#-----------
+time=356
+mem_heap_B=2415112
+mem_heap_extra_B=71048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=357
+mem_heap_B=2562264
+mem_heap_extra_B=75376
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=358
+mem_heap_B=2718936
+mem_heap_extra_B=79984
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=359
+mem_heap_B=2720024
+mem_heap_extra_B=80016
+mem_stacks_B=0
+heap_tree=peak
+n2: 2720024 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2720000 0x1094CF: novoNo (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+  n1: 2720000 0x10968F: filaP_inserir_encadeada (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+   n1: 2720000 0x1092BD: teste_encadeada_10k (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+    n0: 2720000 0x10949C: main (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=22
+#-----------
+time=360
+mem_heap_B=2557640
+mem_heap_extra_B=75240
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=361
+mem_heap_B=2405320
+mem_heap_extra_B=70760
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=362
+mem_heap_B=2247288
+mem_heap_extra_B=66112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=363
+mem_heap_B=2098232
+mem_heap_extra_B=61728
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=364
+mem_heap_B=1952440
+mem_heap_extra_B=57440
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=365
+mem_heap_B=1796040
+mem_heap_extra_B=52840
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=366
+mem_heap_B=1646440
+mem_heap_extra_B=48440
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=367
+mem_heap_B=1496840
+mem_heap_extra_B=44040
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=368
+mem_heap_B=1350504
+mem_heap_extra_B=39736
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=369
+mem_heap_B=1210696
+mem_heap_extra_B=35624
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=370
+mem_heap_B=1210424
+mem_heap_extra_B=35616
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1210424 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1210400 0x1094CF: novoNo (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+  n1: 1210400 0x10968F: filaP_inserir_encadeada (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+   n1: 1210400 0x1092BD: teste_encadeada_10k (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+    n0: 1210400 0x10949C: main (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=33
+#-----------
+time=370
+mem_heap_B=1064904
+mem_heap_extra_B=31336
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=371
+mem_heap_B=1064632
+mem_heap_extra_B=31328
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=371
+mem_heap_B=917480
+mem_heap_extra_B=27000
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=372
+mem_heap_B=917208
+mem_heap_extra_B=26992
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=372
+mem_heap_B=762440
+mem_heap_extra_B=22440
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=373
+mem_heap_B=762168
+mem_heap_extra_B=22432
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=373
+mem_heap_B=609304
+mem_heap_extra_B=17936
+mem_stacks_B=0
+heap_tree=detailed
+n2: 609304 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 609280 0x1094CF: novoNo (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+  n1: 609280 0x10968F: filaP_inserir_encadeada (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+   n1: 609280 0x1092BD: teste_encadeada_10k (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+    n0: 609280 0x10949C: main (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=40
+#-----------
+time=374
+mem_heap_B=609032
+mem_heap_extra_B=17928
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=374
+mem_heap_B=470584
+mem_heap_extra_B=13856
+mem_stacks_B=0
+heap_tree=detailed
+n2: 470584 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 470560 0x1094CF: novoNo (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+  n1: 470560 0x10968F: filaP_inserir_encadeada (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+   n1: 470560 0x1092BD: teste_encadeada_10k (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+    n0: 470560 0x10949C: main (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=42
+#-----------
+time=375
+mem_heap_B=470312
+mem_heap_extra_B=13848
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=375
+mem_heap_B=320440
+mem_heap_extra_B=9440
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=376
+mem_heap_B=320168
+mem_heap_extra_B=9432
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=376
+mem_heap_B=204296
+mem_heap_extra_B=6024
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=377
+mem_heap_B=204024
+mem_heap_extra_B=6016
+mem_stacks_B=0
+heap_tree=detailed
+n2: 204024 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 204000 0x1094CF: novoNo (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+  n1: 204000 0x10968F: filaP_inserir_encadeada (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+   n1: 204000 0x1092BD: teste_encadeada_10k (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+    n0: 204000 0x10949C: main (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+ n0: 24 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=47
+#-----------
+time=377
+mem_heap_B=59592
+mem_heap_extra_B=1768
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=378
+mem_heap_B=59320
+mem_heap_extra_B=1760
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=378
+mem_heap_B=840
+mem_heap_extra_B=40
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=378
+mem_heap_B=568
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=378
+mem_heap_B=296
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=378
+mem_heap_B=24
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=detailed
+n2: 24 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 24 0x109573: filaP_criar_encadeada (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+  n1: 24 0x109229: teste_encadeada_10k (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+   n0: 24 0x10949C: main (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+ n1: 0 0x1094CF: novoNo (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+  n1: 0 0x10968F: filaP_inserir_encadeada (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+   n1: 0 0x1092BD: teste_encadeada_10k (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+    n0: 0 0x10949C: main (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_encadeada)
+#-----------
+snapshot=53
+#-----------
+time=378
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty

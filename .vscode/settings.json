@@ -1,0 +1,10 @@
+{
+  "makefile.extensionOutputFolder": "./.vscode",
+  "files.associations": {
+    "*.env.*": "env",
+    "fila_prioridade_encadeada.h": "c",
+    "time.h": "c",
+    "fila_prioridade_heap.h": "c"
+  },
+  "C_Cpp.errorSquiggles": "Disabled"
+}

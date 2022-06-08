@@ -1,0 +1,697 @@
+desc: --time-unit=ms
+cmd: ./main_heap
+time_unit: ms
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=343
+mem_heap_B=16
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=344
+mem_heap_B=1316
+mem_heap_extra_B=28
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=345
+mem_heap_B=3916
+mem_heap_extra_B=44
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=346
+mem_heap_B=3916
+mem_heap_extra_B=44
+mem_stacks_B=0
+heap_tree=detailed
+n3: 3916 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2600 0x109548: verifica_aumenta (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+  n1: 2600 0x109C8F: filaP_inserir_heap (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+   n1: 2600 0x109459: teste_heap_25k (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+    n0: 2600 0x1094E7: main (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+ n1: 1300 0x109BCA: filaP_criar_heap (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+  n1: 1300 0x1093C5: teste_heap_25k (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+   n0: 1300 0x1094E7: main (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+ n0: 16 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=5
+#-----------
+time=346
+mem_heap_B=2616
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=346
+mem_heap_B=7816
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=346
+mem_heap_B=7816
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=detailed
+n2: 7816 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 7800 0x109548: verifica_aumenta (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+  n1: 7800 0x109C8F: filaP_inserir_heap (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+   n1: 7800 0x109459: teste_heap_25k (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+    n0: 7800 0x1094E7: main (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+ n0: 16 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=8
+#-----------
+time=346
+mem_heap_B=5216
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=346
+mem_heap_B=15616
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=346
+mem_heap_B=15616
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=detailed
+n2: 15616 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 15600 0x109548: verifica_aumenta (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+  n1: 15600 0x109C8F: filaP_inserir_heap (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+   n1: 15600 0x109459: teste_heap_25k (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+    n0: 15600 0x1094E7: main (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+ n0: 16 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=11
+#-----------
+time=346
+mem_heap_B=10416
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=346
+mem_heap_B=31216
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=346
+mem_heap_B=31216
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=detailed
+n2: 31216 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 31200 0x109548: verifica_aumenta (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+  n1: 31200 0x109C8F: filaP_inserir_heap (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+   n1: 31200 0x109459: teste_heap_25k (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+    n0: 31200 0x1094E7: main (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+ n0: 16 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=14
+#-----------
+time=346
+mem_heap_B=20816
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=346
+mem_heap_B=62416
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=346
+mem_heap_B=62416
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=detailed
+n2: 62416 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 62400 0x109548: verifica_aumenta (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+  n1: 62400 0x109C8F: filaP_inserir_heap (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+   n1: 62400 0x109459: teste_heap_25k (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+    n0: 62400 0x1094E7: main (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+ n0: 16 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=17
+#-----------
+time=346
+mem_heap_B=41616
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=346
+mem_heap_B=124816
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=346
+mem_heap_B=124816
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=detailed
+n2: 124816 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 124800 0x109548: verifica_aumenta (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+  n1: 124800 0x109C8F: filaP_inserir_heap (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+   n1: 124800 0x109459: teste_heap_25k (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+    n0: 124800 0x1094E7: main (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+ n0: 16 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=20
+#-----------
+time=346
+mem_heap_B=83216
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=347
+mem_heap_B=249616
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=347
+mem_heap_B=249616
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=detailed
+n2: 249616 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 249600 0x109548: verifica_aumenta (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+  n1: 249600 0x109C8F: filaP_inserir_heap (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+   n1: 249600 0x109459: teste_heap_25k (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+    n0: 249600 0x1094E7: main (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+ n0: 16 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=23
+#-----------
+time=347
+mem_heap_B=166416
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=347
+mem_heap_B=499216
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=347
+mem_heap_B=499216
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=detailed
+n2: 499216 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 499200 0x109548: verifica_aumenta (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+  n1: 499200 0x109C8F: filaP_inserir_heap (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+   n1: 499200 0x109459: teste_heap_25k (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+    n0: 499200 0x1094E7: main (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+ n0: 16 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=26
+#-----------
+time=347
+mem_heap_B=332816
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=349
+mem_heap_B=998416
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=349
+mem_heap_B=998416
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=detailed
+n2: 998416 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 998400 0x109548: verifica_aumenta (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+  n1: 998400 0x109C8F: filaP_inserir_heap (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+   n1: 998400 0x109459: teste_heap_25k (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+    n0: 998400 0x1094E7: main (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+ n0: 16 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=29
+#-----------
+time=349
+mem_heap_B=665616
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=353
+mem_heap_B=1996816
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=353
+mem_heap_B=1996816
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=detailed
+n2: 1996816 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1996800 0x109548: verifica_aumenta (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+  n1: 1996800 0x109C8F: filaP_inserir_heap (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+   n1: 1996800 0x109459: teste_heap_25k (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+    n0: 1996800 0x1094E7: main (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+ n0: 16 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=32
+#-----------
+time=353
+mem_heap_B=1331216
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=360
+mem_heap_B=3993616
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=361
+mem_heap_B=3993616
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=detailed
+n2: 3993616 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 3993600 0x109548: verifica_aumenta (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+  n1: 3993600 0x109C8F: filaP_inserir_heap (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+   n1: 3993600 0x109459: teste_heap_25k (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+    n0: 3993600 0x1094E7: main (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+ n0: 16 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=35
+#-----------
+time=361
+mem_heap_B=2662416
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=377
+mem_heap_B=7987216
+mem_heap_extra_B=4056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=378
+mem_heap_B=7987216
+mem_heap_extra_B=4056
+mem_stacks_B=0
+heap_tree=detailed
+n2: 7987216 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 7987200 0x109548: verifica_aumenta (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+  n1: 7987200 0x109C8F: filaP_inserir_heap (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+   n1: 7987200 0x109459: teste_heap_25k (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+    n0: 7987200 0x1094E7: main (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+ n0: 16 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=38
+#-----------
+time=378
+mem_heap_B=5324816
+mem_heap_extra_B=4048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=413
+mem_heap_B=15974416
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=414
+mem_heap_B=15974416
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=peak
+n2: 15974416 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 15974400 0x109548: verifica_aumenta (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+  n1: 15974400 0x109C8F: filaP_inserir_heap (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+   n1: 15974400 0x109459: teste_heap_25k (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+    n0: 15974400 0x1094E7: main (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+ n0: 16 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=41
+#-----------
+time=414
+mem_heap_B=10649616
+mem_heap_extra_B=4048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=487
+mem_heap_B=15974416
+mem_heap_extra_B=8088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=489
+mem_heap_B=5324816
+mem_heap_extra_B=4048
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=507
+mem_heap_B=7987216
+mem_heap_extra_B=4056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=508
+mem_heap_B=2662416
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=517
+mem_heap_B=3993616
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=517
+mem_heap_B=1331216
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=521
+mem_heap_B=1996816
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=521
+mem_heap_B=665616
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=523
+mem_heap_B=998416
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=detailed
+n2: 998416 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 998400 0x109675: verifica_diminui (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+  n1: 998400 0x109E30: filaP_remover_heap (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+   n1: 998400 0x10949C: teste_heap_25k (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+    n0: 998400 0x1094E7: main (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+ n0: 16 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=51
+#-----------
+time=523
+mem_heap_B=332816
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=524
+mem_heap_B=499216
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=524
+mem_heap_B=166416
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=524
+mem_heap_B=249616
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=524
+mem_heap_B=83216
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=524
+mem_heap_B=124816
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=524
+mem_heap_B=41616
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=524
+mem_heap_B=62416
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=524
+mem_heap_B=20816
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=524
+mem_heap_B=31216
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=detailed
+n2: 31216 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 31200 0x109675: verifica_diminui (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+  n1: 31200 0x109E30: filaP_remover_heap (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+   n1: 31200 0x10949C: teste_heap_25k (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+    n0: 31200 0x1094E7: main (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+ n0: 16 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=61
+#-----------
+time=524
+mem_heap_B=10416
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=524
+mem_heap_B=15616
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=524
+mem_heap_B=5216
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=524
+mem_heap_B=7816
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=524
+mem_heap_B=2616
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=524
+mem_heap_B=3916
+mem_heap_extra_B=44
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=524
+mem_heap_B=1316
+mem_heap_extra_B=28
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=524
+mem_heap_B=1836
+mem_heap_extra_B=44
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=524
+mem_heap_B=536
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=524
+mem_heap_B=796
+mem_heap_extra_B=44
+mem_stacks_B=0
+heap_tree=detailed
+n3: 796 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 780 0x109675: verifica_diminui (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+  n1: 780 0x109E30: filaP_remover_heap (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+   n1: 780 0x10949C: teste_heap_25k (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+    n0: 780 0x1094E7: main (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+ n1: 16 0x109BB7: filaP_criar_heap (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+  n1: 16 0x1093C5: teste_heap_25k (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+   n0: 16 0x1094E7: main (in /home/luan/Documents/Masters/T1/T1.3/Priority queue/main_heap)
+ n0: 0 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=71
+#-----------
+time=524
+mem_heap_B=276
+mem_heap_extra_B=28
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=524
+mem_heap_B=16
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=525
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
